@@ -165,3 +165,9 @@ button {
 .cta-container button {
   border: 2px solid #e5e7eb;
 }
+
+footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+}
