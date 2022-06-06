@@ -152,3 +152,16 @@ button {
   font-weight: 900;
   margin-top: 10px;
 }
+
+
+.cta-container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cta-container button {
+  border: 2px solid #e5e7eb;
+}
