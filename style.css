@@ -14,6 +14,43 @@ footer,
   background-color: #1f2937;
 }
 
+header {
+  display: flex;
+}
+
+header p,
+header ul {
+  padding-top: 24px;
+}
+
+header p {
+  font-size: 24px;
+}
+
+header ul {
+  display: flex;
+  margin-left: auto;
+}
+
+header li {
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: #f9faf8;
+  margin-left: 16px;
+}
+
+header,
+footer,
+.hero-container,
+.information-container,
+.quote-container,
+.cta-container {
+  padding: 0 64px;
+}
+
 header,
 footer,
 .hero-container,
@@ -26,8 +63,22 @@ button,
   background-color: #3882f6;
 }
 
-header p {
-  font-size: 24px;
+.hero-container {
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+}
+
+.hero-image {
+  background-color: #5e5959;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
 }
 
 .hero h1 {
@@ -38,6 +89,15 @@ header p {
 .hero p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-weight: 900;
+  color: #e5e7eb;
+  border: 1px solid #3882f6;
+  border-radius: 10px;
 }
 
 .information-container h2 {
