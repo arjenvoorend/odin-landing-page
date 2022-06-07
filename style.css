@@ -194,3 +194,18 @@ footer {
   padding-bottom: 24px;
   text-align: center;
 }
+
+
+/* HOVER EFFECTS */
+header p:hover,
+header ul li a:hover {
+  cursor: pointer;
+  color: #3882f6;
+}
+
+.hero button:hover,
+.cta-button button:hover {
+  cursor: pointer;
+  color: #3882f6;
+  background-color: #e5e7eb;
+}
