@@ -8,12 +8,37 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
+/* SHARED STYLING */
 header,
 footer,
 .hero-container {
   background-color: #1f2937;
 }
 
+header,
+footer,
+.hero-container,
+.information-container,
+.quote-container,
+.cta-container {
+  padding: 0 64px;
+}
+
+header,
+footer,
+.hero-container,
+.cta-container {
+  color: #f9faf8;
+}
+
+button,
+.cta-container-inner {
+  background-color: #3882f6;
+}
+
+
+/* HEADER STYLING */
 header {
   display: flex;
 }
@@ -42,27 +67,8 @@ header a {
   margin-left: 16px;
 }
 
-header,
-footer,
-.hero-container,
-.information-container,
-.quote-container,
-.cta-container {
-  padding: 0 64px;
-}
 
-header,
-footer,
-.hero-container,
-.cta-container {
-  color: #f9faf8;
-}
-
-button,
-.cta-container-inner {
-  background-color: #3882f6;
-}
-
+/* HERO STYLING */
 .hero-container {
   display: flex;
   padding-top: 64px;
@@ -100,6 +106,8 @@ button {
   border-radius: 10px;
 }
 
+
+/* INFORMATION STYLING */
 .information-container {
   padding-top: 36px;
   padding-bottom: 96px;
@@ -134,6 +142,8 @@ button {
   margin-bottom: 5px;
 }
 
+
+/* QUOTE STYLING */
 .quote-container {
   background-color: #e5e7eb;
   padding-top: 64px;
@@ -154,6 +164,7 @@ button {
 }
 
 
+/* CALL TO ACTION STYLING */
 .cta-container {
   padding-top: 48px;
   padding-bottom: 48px;
@@ -176,6 +187,8 @@ button {
   margin-bottom: 15px;
 }
 
+
+/* FOOTER STYLING */
 footer {
   padding-top: 24px;
   padding-bottom: 24px;
