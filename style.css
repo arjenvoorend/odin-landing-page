@@ -73,7 +73,7 @@ header a {
   display: flex;
   padding-top: 64px;
   padding-bottom: 64px;
-
+  align-items: center;
 }
 
 .hero-image {
